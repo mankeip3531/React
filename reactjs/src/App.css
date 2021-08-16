@@ -1,0 +1,120 @@
+.title {
+  text-align: center;
+  color: white;
+  padding-top: 150px;
+}
+.title2 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  padding-top: 130px;
+}
+.subtitle {
+  text-align: center;
+  color: white;
+  padding-top: 100px;
+
+}
+.title-screen {
+  background-image: url('Community.jpg');  
+  background-size: cover;
+  height: 100vh;
+  overflow: auto;
+}
+.words {
+  padding-top: 50px;
+  color: black;
+  text-align: center;
+}
+.content {
+  background-color: white;
+  height: 105vh;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.video {
+  background: transparent linear-gradient(180deg,#0052cc,#002966) 0 0 no-repeat;
+  height: 100vh; 
+}
+.vid {
+  padding-top: 100px;
+  display: block;
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  h1 {
+      font-size: 50px;
+  }
+
+  h3 {
+      font-size: 30px;
+  }
+  .words {
+    font-size: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+}
+
+@media (min-width: 992px) {
+  h1 {
+      font-size: 70px;
+  }
+
+  h3 {
+      font-size: 50px;
+  }
+  .words {
+    font-size: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+}
+
+@media (min-width: 1200px) {
+  h1 {
+      font-size: 100px;
+  }
+
+  h3 {
+      font-size: 70px;
+  }
+  .words {
+    font-size: 20px;
+    margin-left: 500px;
+    margin-right: 500px;
+  }
+}
+.gallery {
+  padding-bottom: 150px;
+}
+.blue {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding-top:30px;
+  margin-bottom: -8px;
+}
+.mission {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding-left: 500px;
+  padding-right: 400px;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

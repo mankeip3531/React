@@ -1,0 +1,15 @@
+.task {
+  padding-left: 500px;
+  padding-right: 400px;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.challenge-box {
+    height: 100vh;
+}
+.challenge {
+  padding-top: 100px;
+}

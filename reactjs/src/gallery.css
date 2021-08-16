@@ -1,0 +1,17 @@
+.gallery {
+    padding-top: 25px;
+}
+.carousel .slider-wrapper {
+    width: 30%;
+    max-block-size: 900px;
+   
+}
+
+.carousel .thumb {
+    width:5%;
+    height:50px;
+}
+
+.carousel {
+    text-align: center;
+}
