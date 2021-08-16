@@ -1,5 +1,8 @@
 import React from 'react';
 import './App.css';
+import {Route, Link} from 'react-router-dom';
+import Home from './home.js';
+import Task from './task.js';
 
 function App() {
   return (
