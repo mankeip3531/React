@@ -27,11 +27,9 @@
 }
 .content {
   background-color: white;
-  height: 105vh;
+  height: 140vh;
   margin-left: 100px;
   margin-right: 100px;
-  padding-left: 200px;
-  padding-right: 200px;
 }
 .column {
   float: left;
