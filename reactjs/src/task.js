@@ -1,4 +1,3 @@
-import react from 'react';
 import Card from './mission.js';
 import './task.css';
 import Nav from './nav.js';

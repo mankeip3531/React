@@ -5,9 +5,9 @@ class Navbar extends React.Component {
     render() {
       return(
           <header>
-            <a href="#" className="logo">Greenage</a>
+            <a href="/#" className="logo">Greenage</a>
             <ul>
-              <li><a href="#">Home</a></li>
+              <li><a href="/#">Home</a></li>
               <li><a href="#about">About</a></li>
               <li><a href="#video">Video</a></li>
               <li><a href="#effect">Gallery</a></li>

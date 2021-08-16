@@ -1,4 +1,3 @@
-import react from 'react';
 import './column.css'
 
 function Column() {

@@ -5,7 +5,7 @@ class Nav extends React.Component {
     render() {
       return(
           <header>
-            <a href="#" className="logo">Greenage</a>
+            <a href="/#" target="_top" className="logo">Greenage</a>
             <ul>
               <li><Link to="/#" target="_top">Home</Link></li>
               <li><Link to="/task" target="_top">Task</Link></li>

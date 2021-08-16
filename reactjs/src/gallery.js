@@ -9,13 +9,13 @@ export class Gallery extends React.Component {
       <div>
         <Carousel className='gallery'>
             <div>
-                <img src="https://greenlemon.me/wp-content/uploads/2020/09/4-34-743x1024.jpg"/>
+                <img src="https://greenlemon.me/wp-content/uploads/2020/09/4-34-743x1024.jpg" alt="glacier shrinking"/>
             </div>
             <div>
-                <img src="https://greenlemon.me/wp-content/uploads/2020/09/5-33-711x1024.jpg" />
+                <img src="https://greenlemon.me/wp-content/uploads/2020/09/5-33-711x1024.jpg" alt="glacier shrinking"/>
             </div>
             <div>
-                <img src="https://greenlemon.me/wp-content/uploads/2020/09/7-32-815x1024.jpg" />
+                <img src="https://greenlemon.me/wp-content/uploads/2020/09/7-32-815x1024.jpg" alt="glacier shrinking"/>
                 {/* <p className="legend"></p> */}
             </div>
         </Carousel>

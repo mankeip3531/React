@@ -1,4 +1,3 @@
-import react from 'react';
 import {Gallery} from './gallery.js';
 import ReactPlayer from 'react-player';
 import Card from './mission.js';
