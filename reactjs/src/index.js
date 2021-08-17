@@ -5,11 +5,13 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 // import {BrowserRouter} from 'react-router-dom';
 import { BrowserRouter as Router, Switch } from 'react-router-dom';
+import Navbar from './navbar.js'
 
 
 ReactDOM.render(
     // <BrowserRouter>
     <Router>
+      <Navbar />
       <Switch>
         <App/>
       </Switch>
