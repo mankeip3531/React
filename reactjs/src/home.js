@@ -2,7 +2,8 @@ import {Gallery} from './gallery.js';
 import ReactPlayer from 'react-player';
 import Card from './mission.js';
 import Column from './column.js';
-import Navbar from './navbar.js'
+import Navbar from './navbar.js';
+import Task from './task.js';
 function Home() {
     return(
         <div>
@@ -67,8 +68,11 @@ function Home() {
                 />
                 </div>
             </div>
-            <div>
+            <div id ="solution">
                 <Column />
+            </div>
+            <div id="task">
+                <Task />
             </div>
         </div>
     )

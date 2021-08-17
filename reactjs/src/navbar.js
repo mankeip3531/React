@@ -14,11 +14,14 @@ class Navbar extends React.Component {
               <li><a href="#video">Video</a></li>
               <li><a href="#effect">Gallery</a></li>
               <li><a href="#mission">Mission</a></li>
+              <li><a href="#solution">Solutions</a></li>
+              <li><a href="#task">Tasks</a></li>
             </ul>
-            <ul>
+            {/* <ul>
               <li><Link to={"/#"} target="_top">Home</Link></li>
               <li><Link to={"/"} target="_top">Task</Link></li>
-            </ul>
+
+            </ul> */}
           </header>
         </Router>
       )

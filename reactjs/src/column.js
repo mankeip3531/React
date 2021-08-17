@@ -3,7 +3,7 @@ import './column.css'
 function Column() {
     return (
         <div className = 'table'>
-            <div class="row">
+            <div class="row" style={{paddingTop: "50px"}}>
                 <div className="column">
                     <h1 className = "title2 name" style = {{fontSize: "30px"}}>To stop climate change, we should stop burning fossil fuels as soon as possible.</h1>
                     <ul className = "list"> 
