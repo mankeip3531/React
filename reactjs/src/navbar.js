@@ -16,8 +16,8 @@ class Navbar extends React.Component {
               <li><a href="#mission">Mission</a></li>
             </ul>
             <ul>
-              <li><Link to="/#" target="_top">Home</Link></li>
-              <li><Link to="/task" target="_top">Task</Link></li>
+              <li><Link to={"/#"} target="_top">Home</Link></li>
+              <li><Link to={"/task"} target="_top">Task</Link></li>
             </ul>
           </header>
         </Router>
