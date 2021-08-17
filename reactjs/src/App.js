@@ -8,7 +8,7 @@ import Home from './home.js';
 function App() {
   return (
     <div className = "app">
-        <Route exact path="/" component={Home}/>
+        <Home />
         {/* <Route path="/task" component={Task}/> */}
     </div>
   );
