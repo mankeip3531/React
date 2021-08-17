@@ -29,7 +29,7 @@ function Column() {
             </div>
             <div className = "row">
                 <div className = "column">
-                    <h1 className = "title2 name" style = {{fontSize: "30px"}}>Turn off your house applicances when you are not using it</h1>
+                    <h1 className = "title2 name" style = {{fontSize: "30px"}}>Turn off your house appliances when you are not using it</h1>
                     <ul className = "list"> 
                         <li>Saving energy reduces air and water pollution and conserves natural resources, which in turn creates a healthier living environment for people everywhere</li>
                         <li>Energy efficiency reduces the need to burn the fuels to begin with, reducing pollution while saving money</li>

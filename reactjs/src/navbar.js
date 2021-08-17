@@ -1,11 +1,10 @@
 import React from 'react';
 // import { Link } from "react-router-dom";
 import './navbar.css';
-import { BrowserRouter as Router, Link } from 'react-router-dom';
+// import { BrowserRouter as Router, Link } from 'react-router-dom';
 class Navbar extends React.Component {
     render() {
       return(
-        <Router>
           <header>
             <a href="/#" className="logo">Greenage</a>
             <ul>
@@ -23,7 +22,6 @@ class Navbar extends React.Component {
 
             </ul> */}
           </header>
-        </Router>
       )
     }
 }

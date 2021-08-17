@@ -30,9 +30,11 @@ function Home() {
                 <h3 className = "title">Big News</h3> 
                 <ReactPlayer 
                 className='vid' 
-                url='https://www.youtube.com/watch?v=auCzJFxQbqI' 
+                url='https://www.youtube.com/embed/5CADLfXOhkU' 
+                // https://www.youtube.com/watch?v=auCzJFxQbqI
                 width="50%"
                 height="70%"
+                
                 />
             </div>
 
